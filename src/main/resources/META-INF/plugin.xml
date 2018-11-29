@@ -1,22 +1,17 @@
 <idea-plugin>
-  <id>ee.veikokaap.idea.plugins.eclipse-tycho-plugin-development-from-intellij</id>
-  <name>Eclipse IDE plugin development from IntelliJ</name>
+  <id>ee.veikokaap.idea.plugins.netbeans-plugin-development-from-intellij</id>
+  <name>NetBeans IDE plugin development from IntelliJ</name>
 
   <idea-version since-build="181.5281" until-build="999.*"/>
 
   <description><![CDATA[
-    IntelliJ IDEA plugin for aiding development of Eclipse IDE plugins.<br><br>
-    More information at <a href="https://github.com/veikokaap/eclipse-plugin-dev-from-intellij">GitHub</a>.
+    IntelliJ IDEA plugin for aiding development of NetBeans IDE plugins.<br><br>
     ]]></description>
 
-  <depends optional="true">org.jetbrains.idea.maven</depends>
-
-  <extensions defaultExtensionNs="org.jetbrains.idea.maven">
-    <importer implementation="ee.veikokaap.idea.plugins.eclipsefromintellijplugin.import.EclipseMavenProjectImporter"/>
-  </extensions>
+  <!--More information at <a href="https://github.com/veikokaap/eclipse-plugin-dev-from-intellij">GitHub</a>.-->
 
   <extensions defaultExtensionNs="com.intellij">
-    <configurationType implementation="ee.veikokaap.idea.plugins.eclipsefromintellijplugin.runconfig.EclipsePluginConfigurationType"/>
+    <!--<configurationType implementation="ee.veikokaap.idea.plugins.eclipsefromintellijplugin.runconfig.EclipsePluginConfigurationType"/>-->
   </extensions>
 
 </idea-plugin>
