@@ -10,8 +10,10 @@
 
   <!--More information at <a href="https://github.com/veikokaap/eclipse-plugin-dev-from-intellij">GitHub</a>.-->
 
+  <depends>org.jetbrains.idea.maven</depends>
+
   <extensions defaultExtensionNs="com.intellij">
-    <!--<configurationType implementation="ee.veikokaap.idea.plugins.eclipsefromintellijplugin.runconfig.EclipsePluginConfigurationType"/>-->
+    <configurationType implementation="ee.veikokaap.idea.plugins.netbeans.NetBeansPluginConfigurationType"/>
   </extensions>
 
 </idea-plugin>

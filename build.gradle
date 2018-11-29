@@ -28,6 +28,7 @@ compileTestKotlin {
 
 intellij {
     version '2018.1.5'
+    plugins 'maven'
 }
 
 patchPluginXml {
